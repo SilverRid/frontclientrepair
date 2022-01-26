@@ -11,6 +11,7 @@
 <head>
     <link href="<c:url value="/resources/css/repaircss.css"/>" rel="stylesheet">
     <title>International Repair Service</title>
+    
 </head>
 <body>
 <div class="wrapper">
