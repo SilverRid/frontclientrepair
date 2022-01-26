@@ -10,10 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="766a4101-ef78-4d00-988a-185fc1bdc49d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/ControllerCli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head-first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/cominication/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/conf/ConfigJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/entity/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/service/ManageEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontclientrepair.iml" beforeDir="false" afterPath="$PROJECT_DIR$/frontclientrepair.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/ControllerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/ControllerCli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head-first.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head-first.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +58,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\java\ru\nposp\tech\cli" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.55" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8899/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="frontclientrepair:war exploded">
