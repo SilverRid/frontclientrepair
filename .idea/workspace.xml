@@ -10,11 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="766a4101-ef78-4d00-988a-185fc1bdc49d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/get-all-equipment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/repaircss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/repaircss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/ControllerCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli/ControllerCli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head-first.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/main-page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/nposp/tech/cli/ControllerCli.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/nposp/tech/cli/ControllerCli.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/frontclientrepair/WEB-INF/classes/ru/nposp/tech/cli/ControllerCli.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/frontclientrepair/WEB-INF/classes/ru/nposp/tech/cli/ControllerCli.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/frontclientrepair/WEB-INF/view/get-all-equioment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/frontclientrepair/WEB-INF/view/head-first.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +52,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ru/nposp/tech/cli" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\resources" />
       <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\java\ru\nposp\tech\cli" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\webapp\resources\css" />
+      <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\webapp\WEB-INF\view\css" />
       <recent name="E:\JAVAPROJECT\frontclientrepair\src\main\webapp\WEB-INF\view" />
     </key>
   </component>

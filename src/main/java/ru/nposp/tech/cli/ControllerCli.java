@@ -17,7 +17,7 @@ import ru.nposp.tech.cli.service.ManageEquipment;
 public class ControllerCli {
     @RequestMapping("/")
     public String showView() {
-               return "head-first";
+               return "main-page";
     }
     @RequestMapping("/eqs")
     public String showAllEquipments(Model model) {
