@@ -1,7 +1,10 @@
 package ru.nposp.tech.cli;
 
+import java.util.List;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import ru.nposp.tech.cli.entity.Equipment;
 import ru.nposp.tech.cli.service.ManageEquipment;
 
 /*****
@@ -14,9 +17,15 @@ import ru.nposp.tech.cli.service.ManageEquipment;
 public class ControllerCli {
     @RequestMapping("/")
     public String showView() {
+               return "head-first";
+    }
+    @RequestMapping("/eqs")
+    public String showAllEquipments(Model model) {
 
         ManageEquipment m = new ManageEquipment();
-        System.out.println(m.manGetEquip());
-        return "head-first";
+//        System.out.println(m.manGetEquip());
+        List<Equipment> allequip = m.manGetEquip();
+        model.addAttribute("allequip", allequip);
+        return "get-all-equipment";
     }
 }
