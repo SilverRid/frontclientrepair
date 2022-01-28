@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Get all Equipment</title>
+    <title>International Repair Service</title>
 </head>
 <body>
 <h2>Get equipments for repair</h2>
